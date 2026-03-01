@@ -6,3 +6,6 @@ It contains a main program to be attacked, an injector program that attacks the 
 
 ## Example 2:
 This example a simulation of hacking a game! The main program prints the player health and coordinates! Again to inject the DLL you need to provide the PID to the injector. Once done, the player health and coordinate will change!
+
+### Note:
+To find the addresses of the player's stats in example 2, I hardcoded the addresses in the DLL file! For that reason when the game starts, it prints the addresses
